@@ -1,0 +1,19 @@
+{
+  "name": "genderguesser",
+  "version": "1.0.0",
+  "description": "Interact with genderize.io",
+  "main": "src/genderGuesser.js",
+  "scripts": {
+    "test": "mocha \"test/**/*.js\""
+  },
+  "author": "Jamie Preston",
+  "license": "ISC",
+  "devDependencies": {
+    "chai": "^4.1.2",
+    "mocha": "^3.5.3",
+    "nock": "^9.0.14"
+  },
+  "dependencies": {
+    "https": "^1.0.0"
+  }
+}
